@@ -1,0 +1,6 @@
+console.log(1 + "2" + "2");//integer is concatinated with string and givest the result122
+console.log(1 + +"2" + "2");//+ sign before a string convert the string to number with same sign(like +'2'->2 and -'2'->-)
+console.log(1 + -"1" + "2");//02converted,simplified and then concatinated
+console.log(+"1" + "1" + "2");//112 converted and concatinated
+console.log( "A" - "B" + "2");//NaN2 (NaN is for value which is "not-a-number") first it's converted to NaN and then it is concatinated
+console.log( "A" - "B" + 2);//NaN bescuse NaN can't be concatinated with a number
